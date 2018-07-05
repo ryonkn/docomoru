@@ -1,6 +1,6 @@
 module Docomoru
   module DialogueMethods
-    PATH = "/dialogue/v1/dialogue"
+    PATH = "/naturalChatting/v1/dialogue"
 
     def create_dialogue(message, params = {}, headers = {})
       post(
